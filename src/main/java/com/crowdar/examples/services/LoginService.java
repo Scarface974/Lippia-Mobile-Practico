@@ -24,14 +24,14 @@ public class LoginService {
 
 
     public static void doNumberdown(){
-        MobileActionManager.click(LoginConstants.HORA_DOWN_BUTTON_LOCATOR);
-        MobileActionManager.click(LoginConstants.HORA_DOWN_BUTTON_LOCATOR);
+        MobileActionManager.click(LoginConstants.HOURS_wheel);
+        MobileActionManager.click(LoginConstants.HOURS_wheel);
 
     }
 
     public static void doNumberup(){
-        MobileActionManager.click(LoginConstants.HORA_UP_BUTTON_LOCATOR);
-        MobileActionManager.click(LoginConstants.HORA_UP_BUTTON_LOCATOR);
+        MobileActionManager.click(LoginConstants.MINUTE_wheel);
+        MobileActionManager.click(LoginConstants.MINUTE_wheel);
 
     }
 
@@ -48,7 +48,7 @@ public class LoginService {
         MobileActionManager.setInput(LoginConstants.SECOND_NUMBER,segundo); */
 
         for (int i = 0 ; i < 4; i++){
-            MobileActionManager.click(LoginConstants.HORA_DOWN_BUTTON_LOCATOR);
+            MobileActionManager.click(LoginConstants.MINUTE_wheel);
         }
     }
 

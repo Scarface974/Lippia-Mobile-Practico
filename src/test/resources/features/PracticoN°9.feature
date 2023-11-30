@@ -8,7 +8,7 @@ Feature: El cliente interactua con la app
       | email             | password         |
       |esteban97@gmail.com| dontforget3oct   |
 
-  @Demo
+
 Scenario Outline: El usuario modifica la hora establecida
   Given La app inicio correctamente
   When  El usuario se logea en la aplicacion con : <correo>, <contraseña>
